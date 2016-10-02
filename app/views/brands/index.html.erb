@@ -3,10 +3,9 @@
 <h1>Brands</h1>
 
 <%= form_for 'brands', method: :get do |f| %>
-    <%= text_field_tag :keywords, nil, placeholder: "Buscar", autofocus: true, value: "#{@keywords}" %>
+  <%= text_field_tag :keywords, nil, placeholder: "Buscar", autofocus: true, value: "#{@keywords}" %>
 
-    <%= f.submit "Buscar" %>
-  </div>
+  <%= f.submit "Buscar" %>
 <% end %>
 
 <table>
